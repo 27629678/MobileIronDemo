@@ -13,9 +13,25 @@
 		DA00A1D11D62C6FD00694850 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA00A1CF1D62C6FD00694850 /* Main.storyboard */; };
 		DA00A1D31D62C6FD00694850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA00A1D21D62C6FD00694850 /* Assets.xcassets */; };
 		DA00A1D61D62C6FD00694850 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA00A1D41D62C6FD00694850 /* LaunchScreen.storyboard */; };
+		DA00A1DF1D62C74400694850 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA00A1DE1D62C74400694850 /* MobileCoreServices.framework */; };
+		DA00A1E11D62C74A00694850 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA00A1E01D62C74A00694850 /* LocalAuthentication.framework */; };
+		DA00A1E31D62C75100694850 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA00A1E21D62C75100694850 /* Accelerate.framework */; };
+		DA00A1E51D62C75A00694850 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA00A1E41D62C75A00694850 /* Security.framework */; };
+		DA00A1E71D62C76200694850 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA00A1E61D62C76200694850 /* Foundation.framework */; };
+		DA00A1E91D62C76A00694850 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA00A1E81D62C76A00694850 /* CoreGraphics.framework */; };
+		DA00A1EB1D62C81A00694850 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA00A1EA1D62C81A00694850 /* libcrypto.a */; };
+		DA00A1ED1D62C82000694850 /* libProtocolBuffers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA00A1EC1D62C82000694850 /* libProtocolBuffers.a */; };
+		DA00A1EF1D62C87900694850 /* AppConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA00A1EE1D62C87900694850 /* AppConnect.framework */; };
+		DA00A1F11D62C88700694850 /* AppConnectResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DA00A1F01D62C88700694850 /* AppConnectResources.bundle */; };
+		DA00A1F41D62C9A500694850 /* MobileIronManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA00A1F31D62C9A500694850 /* MobileIronManager.m */; };
+		DA00A1F71D62ED5F00694850 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA00A1F61D62ED5F00694850 /* WebViewController.m */; };
+		DA29D1CD1D62F15C001A1B90 /* Web2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA29D1CC1D62F15C001A1B90 /* Web2ViewController.m */; };
+		F9F90A2BB721E0791ED0CD65 /* libPods-DualMode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D277890115FD973E182DABE7 /* libPods-DualMode.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B106DC2C3BBAAE0520488760 /* Pods-DualMode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DualMode.release.xcconfig"; path = "Pods/Target Support Files/Pods-DualMode/Pods-DualMode.release.xcconfig"; sourceTree = "<group>"; };
+		D277890115FD973E182DABE7 /* libPods-DualMode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DualMode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA00A1C31D62C6FD00694850 /* DualMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DualMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA00A1C71D62C6FD00694850 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DA00A1C91D62C6FD00694850 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +42,23 @@
 		DA00A1D21D62C6FD00694850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA00A1D51D62C6FD00694850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA00A1D71D62C6FD00694850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA00A1DE1D62C74400694850 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		DA00A1E01D62C74A00694850 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		DA00A1E21D62C75100694850 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		DA00A1E41D62C75A00694850 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DA00A1E61D62C76200694850 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA00A1E81D62C76A00694850 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DA00A1EA1D62C81A00694850 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = Libraries/openssl/libcrypto.a; sourceTree = "<group>"; };
+		DA00A1EC1D62C82000694850 /* libProtocolBuffers.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libProtocolBuffers.a; path = Libraries/protobufs/libProtocolBuffers.a; sourceTree = "<group>"; };
+		DA00A1EE1D62C87900694850 /* AppConnect.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppConnect.framework; sourceTree = "<group>"; };
+		DA00A1F01D62C88700694850 /* AppConnectResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AppConnectResources.bundle; path = AppConnect.framework/Resources/AppConnectResources.bundle; sourceTree = "<group>"; };
+		DA00A1F21D62C9A500694850 /* MobileIronManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileIronManager.h; sourceTree = "<group>"; };
+		DA00A1F31D62C9A500694850 /* MobileIronManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileIronManager.m; sourceTree = "<group>"; };
+		DA00A1F51D62ED5F00694850 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		DA00A1F61D62ED5F00694850 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		DA29D1CB1D62F15C001A1B90 /* Web2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Web2ViewController.h; sourceTree = "<group>"; };
+		DA29D1CC1D62F15C001A1B90 /* Web2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Web2ViewController.m; sourceTree = "<group>"; };
+		DBD6984A79644D781868F8F7 /* Pods-DualMode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DualMode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DualMode/Pods-DualMode.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +66,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA00A1EF1D62C87900694850 /* AppConnect.framework in Frameworks */,
+				DA00A1ED1D62C82000694850 /* libProtocolBuffers.a in Frameworks */,
+				DA00A1EB1D62C81A00694850 /* libcrypto.a in Frameworks */,
+				DA00A1E91D62C76A00694850 /* CoreGraphics.framework in Frameworks */,
+				DA00A1E71D62C76200694850 /* Foundation.framework in Frameworks */,
+				DA00A1E51D62C75A00694850 /* Security.framework in Frameworks */,
+				DA00A1E31D62C75100694850 /* Accelerate.framework in Frameworks */,
+				DA00A1E11D62C74A00694850 /* LocalAuthentication.framework in Frameworks */,
+				DA00A1DF1D62C74400694850 /* MobileCoreServices.framework in Frameworks */,
+				F9F90A2BB721E0791ED0CD65 /* libPods-DualMode.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		049DF23AA91362772F4B6600 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBD6984A79644D781868F8F7 /* Pods-DualMode.debug.xcconfig */,
+				B106DC2C3BBAAE0520488760 /* Pods-DualMode.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DA00A1BA1D62C6FD00694850 = {
 			isa = PBXGroup;
 			children = (
+				DA00A1F01D62C88700694850 /* AppConnectResources.bundle */,
 				DA00A1C51D62C6FD00694850 /* DualMode */,
 				DA00A1C41D62C6FD00694850 /* Products */,
+				DA00A1DD1D62C74400694850 /* Frameworks */,
+				049DF23AA91362772F4B6600 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +115,14 @@
 			children = (
 				DA00A1C91D62C6FD00694850 /* AppDelegate.h */,
 				DA00A1CA1D62C6FD00694850 /* AppDelegate.m */,
+				DA00A1F21D62C9A500694850 /* MobileIronManager.h */,
+				DA00A1F31D62C9A500694850 /* MobileIronManager.m */,
 				DA00A1CC1D62C6FD00694850 /* ViewController.h */,
 				DA00A1CD1D62C6FD00694850 /* ViewController.m */,
+				DA00A1F51D62ED5F00694850 /* WebViewController.h */,
+				DA00A1F61D62ED5F00694850 /* WebViewController.m */,
+				DA29D1CB1D62F15C001A1B90 /* Web2ViewController.h */,
+				DA29D1CC1D62F15C001A1B90 /* Web2ViewController.m */,
 				DA00A1CF1D62C6FD00694850 /* Main.storyboard */,
 				DA00A1D21D62C6FD00694850 /* Assets.xcassets */,
 				DA00A1D41D62C6FD00694850 /* LaunchScreen.storyboard */,
@@ -79,6 +140,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DA00A1DD1D62C74400694850 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA00A1EE1D62C87900694850 /* AppConnect.framework */,
+				DA00A1EC1D62C82000694850 /* libProtocolBuffers.a */,
+				DA00A1EA1D62C81A00694850 /* libcrypto.a */,
+				DA00A1E81D62C76A00694850 /* CoreGraphics.framework */,
+				DA00A1E61D62C76200694850 /* Foundation.framework */,
+				DA00A1E41D62C75A00694850 /* Security.framework */,
+				DA00A1E21D62C75100694850 /* Accelerate.framework */,
+				DA00A1E01D62C74A00694850 /* LocalAuthentication.framework */,
+				DA00A1DE1D62C74400694850 /* MobileCoreServices.framework */,
+				D277890115FD973E182DABE7 /* libPods-DualMode.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA00A1DA1D62C6FD00694850 /* Build configuration list for PBXNativeTarget "DualMode" */;
 			buildPhases = (
+				D607BBDFEB4C588AA8F1FA30 /* 📦 Check Pods Manifest.lock */,
 				DA00A1BF1D62C6FD00694850 /* Sources */,
 				DA00A1C01D62C6FD00694850 /* Frameworks */,
 				DA00A1C11D62C6FD00694850 /* Resources */,
+				D79E003CE73F86C5CC6A691C /* 📦 Embed Pods Frameworks */,
+				B943C1504E49E3EE9D88CEE2 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA00A1F11D62C88700694850 /* AppConnectResources.bundle in Resources */,
 				DA00A1D61D62C6FD00694850 /* LaunchScreen.storyboard in Resources */,
 				DA00A1D31D62C6FD00694850 /* Assets.xcassets in Resources */,
 				DA00A1D11D62C6FD00694850 /* Main.storyboard in Resources */,
@@ -146,12 +228,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B943C1504E49E3EE9D88CEE2 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DualMode/Pods-DualMode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D607BBDFEB4C588AA8F1FA30 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D79E003CE73F86C5CC6A691C /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DualMode/Pods-DualMode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DA00A1BF1D62C6FD00694850 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DA00A1CE1D62C6FD00694850 /* ViewController.m in Sources */,
+				DA00A1F71D62ED5F00694850 /* WebViewController.m in Sources */,
+				DA29D1CD1D62F15C001A1B90 /* Web2ViewController.m in Sources */,
+				DA00A1F41D62C9A500694850 /* MobileIronManager.m in Sources */,
 				DA00A1CB1D62C6FD00694850 /* AppDelegate.m in Sources */,
 				DA00A1C81D62C6FD00694850 /* main.m in Sources */,
 			);
@@ -269,11 +402,28 @@
 		};
 		DA00A1DB1D62C6FD00694850 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBD6984A79644D781868F8F7 /* Pods-DualMode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3LH7676BHR;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DualMode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries/openssl",
+					"$(PROJECT_DIR)/Libraries/protobufs",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(SRCROOT)/AppConnect.framework/AppConnect",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = x.y.z.DualMode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -281,11 +431,28 @@
 		};
 		DA00A1DC1D62C6FD00694850 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B106DC2C3BBAAE0520488760 /* Pods-DualMode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3LH7676BHR;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DualMode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries/openssl",
+					"$(PROJECT_DIR)/Libraries/protobufs",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(SRCROOT)/AppConnect.framework/AppConnect",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = x.y.z.DualMode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -310,6 +477,7 @@
 				DA00A1DC1D62C6FD00694850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
